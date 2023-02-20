@@ -45,8 +45,15 @@ header .container-flex{
 .nav{
   width: 250px;
   height: 30px;
+ 
 }
 
+
+.nav ul{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none; 
+}
 
 
 main .section-blue-flex{
@@ -72,7 +79,8 @@ section .rettangolo-rosa{
 section .first-section-flex{
   display: flex;
   justify-content: center;
-  margin-top: 50px;
+  align-items: center;
+  margin: 50px;
 }
 
 
@@ -97,8 +105,10 @@ section .first-section-flex{
 section .second-section-flex{
   display: flex;
   justify-content: center;
+  align-items: center;
   margin-top: 50px;
-  background-color: gray;
+  background-color: #D3D3D3;
+  height: 300px;
 }
 
 .quadrato-pink{
@@ -116,4 +126,95 @@ section .second-section-flex{
   background-color: #1E90FF;
   border: 1px solid black;
   border-style: dashed;
+}
+
+
+
+section .verde-flex{
+  display: flex;
+  justify-content: center;
+  align-items:center ;
+  background-color: #D3D3D3;
+  height: 500px;
+} 
+
+
+.rettangolo-verde{
+  height: 400px;
+  width: 500px;
+  background-color: #228B22;
+  border: 1px solid black;
+  border-style: dashed;
+  
+}
+
+
+
+.container-footer-flex{
+  display: flex;
+  justify-content: center;
+  height: 360px;
+  background-color: #23272A;
+}
+
+.quadrati{
+  display: flex;
+  flex-direction: row;
+}
+
+.red{
+  height: 300px;
+  width: 150px;
+  background-color: #F08080;
+  margin: 10px 0;
+  border: 1px solid black;
+  border-style: dashed;
+}
+
+.green{
+  height: 300px;
+  width: 88px;
+  background-color: #20B2AA;
+  margin: 10px 0;
+  border: 1px solid white;
+  border-style: dashed;
+}
+
+
+.footer-nav-flex{
+  display: flex;
+  justify-content: center;
+  height: 70px;
+  background-color: #23272A;  
+}
+
+
+.footer-nav-flex .acquamarina{
+  width: 500px;
+  height: 70px;
+  background-color: #7FFFD4;
+  margin-bottom: 50px;
+}
+
+
+
+.acquamarina .logo-footer{
+  width: 54px;
+  height: 20px;
+  background-color: #FFB6C1;
+  border: 1px solid black;
+  border-style: dashed;
+  text-align: center;
+ 
+}
+
+
+.acquamarina .bottone{
+  width: 54px;
+  height: 20px;
+  background-color: #FFB6C1;
+  border: 1px solid black;
+  border-style: dashed;
+  text-align: center; 
+  
 }
