@@ -1,0 +1,119 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+
+header{
+  display: flex;
+  justify-content: center;
+  background-color: #ADD8E6;
+  height: 80px;
+}
+
+
+
+header .container-flex{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;  
+}
+
+
+
+.logo, .nav, .login{
+  display: flex;
+  align-items: center;
+  background-color: #DAA520;
+  border: 1px solid black;
+  border-style: dashed;
+}
+
+
+
+.logo, .login{
+  width: 150px;
+  height: 30px;
+}
+
+
+
+.nav{
+  width: 250px;
+  height: 30px;
+}
+
+
+
+main .section-blue-flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  background-color: #00008B;
+}
+
+
+
+section .rettangolo-rosa{
+  width: 40%;
+  height: 200px;
+  background-color: #EE82EE;
+  border: 1px solid black;
+  border-style: dashed;
+}
+
+
+
+section .first-section-flex{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+
+.quadrato-blu{
+  width: 300px;
+  height: 200px;
+  background-color: #1E90FF;
+  border: 1px solid black;
+  border-style: dashed;
+}
+
+
+.quadrato-rosa{
+  width: 200px;
+  height: 200px;
+  background-color: #FFC0CB;
+  border: 1px solid black;
+  border-style: dashed;
+}
+
+
+section .second-section-flex{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  background-color: gray;
+}
+
+.quadrato-pink{
+  width: 300px;
+  height: 200px;
+  background-color: #FFC0CB;
+  border: 1px solid black;
+  border-style: dashed;
+}
+
+
+.quadrato-azure{
+  width: 200px;
+  height: 200px;
+  background-color: #1E90FF;
+  border: 1px solid black;
+  border-style: dashed;
+}
