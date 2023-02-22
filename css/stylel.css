@@ -52,7 +52,7 @@ main .section-blue-flex{
   justify-content: center;
   align-items: center;
   height: 300px;
-  background-image: url(/img/jumbo.png);
+  background-image: url(../img/jumbo.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -98,7 +98,7 @@ section .first-section-flex{
 .quadrato-blu{
   width: 500px;
   height: 300px;
-  background-image: url(/img/item1.svg);
+  background-image: url(../img/item1.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -130,7 +130,7 @@ section .second-section-flex{
 .quadrato-azure{
   width: 500px;
   height: 300px;
-  background-image: url(/img/item2.svg);
+  background-image: url(../img/item2.svg);
   background-repeat: no-repeat;
   background-size:contain;
 }
@@ -148,7 +148,7 @@ section .third-section-flex{
 .quadrato-grande{
   width: 500px;
   height: 300px;
-  background-image: url(/img/item3.svg);
+  background-image: url(../img/item3.svg);
   background-repeat: no-repeat;
   background-size: cover;
   margin: 10px;
@@ -177,7 +177,7 @@ section .verde-flex{
 .rettangolo-verde{
   height: 550px;
   width: 980px;
-  background-image: url(/img/item4-big.svg);
+  background-image: url(../img/item4-big.svg);
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
@@ -191,7 +191,7 @@ section .verde-flex{
 
 
 .cat h1{
-  background-image: url(/img/stars.svg);
+  background-image: url(../img/stars.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
